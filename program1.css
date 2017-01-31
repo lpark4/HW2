@@ -1,0 +1,113 @@
+﻿.recipeclass {
+    width:1024px;
+    font-size:14px;
+    background-color:#FFCC00;
+    font-family:Georgia,Garamond,serif;
+}
+
+h1, h2 {
+    background-color: #F0F0F0;
+    background-width:1024px;
+    color: #A4A400;
+    font-family:'Century Gothic', Futura, Verdana, sans-serif;
+    text-align: center;
+}
+
+h3 {
+     background-color: #F0F0F0;
+    background-width:1024px;
+    color: #A4A400;
+    font-family:'Century Gothic', Futura, Verdana, sans-serif;
+}
+
+.button {
+    box-sizing: border-box;
+    border-right: 15px solid #003366;
+    text-align: center;
+    line-height: 20px;
+    vertical-align: middle;
+    text-decoration: none;
+    display: inline-block;
+    font-size:12px;
+    background: #FFFF99;
+    color: #003366;
+    height:20px;
+    width:70px;
+    float: left;
+    margin-right:5px;
+    
+}
+
+p{
+    text-align: left;
+}
+
+.food-pic {
+     float: left;
+}
+
+.container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.sub {
+    text-align: left;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+li {
+    text-align: left;
+}
+
+.serves {
+    text-align: left;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+table {
+    border: 2px;
+    background-color: #CC9933;
+    border-width:2px;
+    border-color:#F0F0F0;
+    color: #FFFFFF;
+    margin-top: 20px;
+    border-style:solid;
+   
+   
+    
+}
+
+.head {
+    background-color:#003366;
+    color:#FFFFFF;
+    width:auto;
+    text-align:center;
+    font-weight: bold;
+    border: 2px;
+    border-style:solid;
+    padding:5px, 5px, 5px, 5px;
+    border-color:#FFFFFF;
+ 
+}
+
+th {
+    background-color: #003366;
+    text-align:center;
+   
+}
+
+.row {
+    background-color: #003366;
+    text-align:center;
+}
+
+td {
+    text-align:left;
+}
