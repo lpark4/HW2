@@ -1,113 +1,170 @@
-﻿.recipeclass {
-    width:1024px;
-    font-size:14px;
-    background-color:#FFCC00;
-    font-family:Georgia,Garamond,serif;
+﻿
+/*STYLESHEET FOR program1.html BEGINNING*/
+.title {
+    text-align:center;
 }
 
-h1, h2 {
-    background-color: #F0F0F0;
-    background-width:1024px;
-    color: #A4A400;
-    font-family:'Century Gothic', Futura, Verdana, sans-serif;
-    text-align: center;
+body.program1 {
+    text-align:center;
+    background-image:url("bg3.jpg");
+    background-repeat:repeat;
+    background-attachment:fixed;
+    box-sizing:border-box;
+    width:70%;
+    margin:auto;
+    padding-top:0px;
+    padding-bottom: 20px;
+  
 }
 
-h3 {
-     background-color: #F0F0F0;
-    background-width:1024px;
-    color: #A4A400;
-    font-family:'Century Gothic', Futura, Verdana, sans-serif;
-}
-
-.button {
-    box-sizing: border-box;
-    border-right: 15px solid #003366;
-    text-align: center;
-    line-height: 20px;
-    vertical-align: middle;
-    text-decoration: none;
-    display: inline-block;
-    font-size:12px;
-    background: #FFFF99;
-    color: #003366;
-    height:20px;
-    width:70px;
-    float: left;
-    margin-right:5px;
+.box{
+    border: none;
+    background-color: #ebfffa;
+    border-width: 50px;
+    padding-top:10px;
+    padding-bottom:initial;
     
 }
 
-p{
-    text-align: left;
+.menu {
+    list-style-type:none;
+    padding:20px;
+    overflow:hidden;
+    background-color: #E3E6E9;
+    font-size: 18px;
+    font-family: Calibri;
 }
 
-.food-pic {
-     float: left;
+.menu > li {
+    display: inline-block;
+    
 }
 
-.container {
-    width: 100%;
-    overflow: hidden;
+.menu > li > a {
+    text-decoration:none;
+    margin-left:40px;
+
+
+}
+
+
+li a:hover {
+    color: lightcyan;
+}
+
+li a{
+    color: #000000;
+    display:block;
 }
 
 .bold {
-    font-weight: bold;
+    font-weight:bold;
+    font-size: 24px;
+    text-decoration: underline;
 }
 
-.sub {
+.link {
+    color: lightblue;
+}
+
+.french {
+    font-weight:bold;
+    color:burlywood
+}
+
+.ingredients {
     text-align: left;
-    font-weight: bold;
-    font-size: 17px;
-}
-
-li {
-    text-align: left;
-}
-
-.serves {
-    text-align: left;
-    font-size: 15px;
-    font-weight: bold;
-}
-
-table {
-    border: 2px;
-    background-color: #CC9933;
-    border-width:2px;
-    border-color:#F0F0F0;
-    color: #FFFFFF;
-    margin-top: 20px;
-    border-style:solid;
+    display:inline-block;
+    float:left;
+    margin-left:20px;
    
-   
+}
+
+.recipe {
+    text-align:left;
+    display:inline-block;
+}
+
+.small {
+    margin-left:30px;
+    margin-right:30px;
     
 }
 
+.ir {
+    text-decoration:underline;
+    font-size: 20px;
+}
+
+.toast {
+    width:25%;
+    height:25%;
+    float:left;
+    margin-left:180px;
+}
+
+.lunch {
+    text-align:center;
+}
+
+.budae {
+    width: 350px;
+    height:250px;
+    float:left;
+    margin-left: 80px;
+}
+/*STYLESHEET FOR program1.html END*/
+
+/*STYLESHEET FOR dessert.html BEGINNING*/
+body.dessert {
+    text-align:center;
+    background-image:url("dessertb1.jpg");
+    background-repeat:repeat;
+    background-attachment:fixed;
+    box-sizing:border-box;
+    width:60%;
+    margin:auto;
+    padding-top:0px;
+    padding-bottom: 20px;
+  
+}
+
+.box1{
+    border: none;
+    background-color: #ebfffa;
+    border-width: 50px;
+    padding-top:10px;
+    padding-bottom:initial;
+    position:relative;
+    left: -100px;
+    
+}
+
+.head1{
+    font-family: 'Times New Roman', Times, serif;
+    font-style:italic;
+    letter-spacing: 5px;
+    text-decoration:underline;
+}
+
+.dessertimg {
+    border-radius: 50%;
+    width: 40%;
+    height:40%;
+    float:right;
+    margin:10px;
+    margin-right:20px;
+}
+
+.d1 {
+   margin:20px;
+}
+
 .head {
-    background-color:#003366;
-    color:#FFFFFF;
-    width:auto;
-    text-align:center;
-    font-weight: bold;
-    border: 2px;
-    border-style:solid;
-    padding:5px, 5px, 5px, 5px;
-    border-color:#FFFFFF;
- 
+    margin: 30px;
 }
 
-th {
-    background-color: #003366;
-    text-align:center;
-   
-}
-
-.row {
-    background-color: #003366;
-    text-align:center;
-}
-
-td {
+.d3 > li {
     text-align:left;
 }
+/*STYLESHEET FOR dessert.html END*/
