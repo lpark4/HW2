@@ -1,5 +1,4 @@
-﻿
-/*STYLESHEET FOR program1.html BEGINNING*/
+﻿/*STYLESHEET FOR program1.html BEGINNING*/
 .title {
     text-align:center;
 }
@@ -115,8 +114,143 @@ li a{
 }
 /*STYLESHEET FOR program1.html END*/
 
+/*STYLESHEET FOR recipe.html BEGINNING*/
+.recipeclass {
+    width:1024px;
+    font-size:14px;
+    background-color:#FFCC00;
+    font-family:Georgia,Garamond,serif;
+}
+
+.recipeclass h1, .recipeclass h2 {
+    background-color: #F0F0F0;
+    background-width:1024px;
+    color: #A4A400;
+    font-family:'Century Gothic', Futura, Verdana, sans-serif;
+    text-align: center;
+}
+
+.recipeclass h3 {
+    background-color: #F0F0F0;
+    background-width:1024px;
+    color: #A4A400;
+    font-family:'Century Gothic', Futura, Verdana, sans-serif;
+    text-align:left;
+}
+
+.button {
+    box-sizing: border-box;
+    border-right: 15px solid #003366;
+    text-align: center;
+    line-height: 20px;
+    vertical-align: middle;
+    text-decoration: none;
+    display: inline-block;
+    font-size:12px;
+    background: #FFFF99;
+    color: #003366;
+    height:20px;
+    width:70px;
+    float: left;
+    margin-right:5px;
+    
+}
+
+.recipeclass p{
+    text-align: left;
+}
+
+.food-pic {
+     float: left;
+}
+
+.container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.sub {
+    text-align: left;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.recipeclass li {
+    text-align: left;
+}
+
+.serves {
+    text-align: left;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+table {
+    border: 2px;
+    background-color: #CC9933;
+    border-width: 2px;
+    border-color: #F0F0F0;
+    color: #FFFFFF;
+    margin-top: 20px;
+    border-style: solid;
+}
+
+caption {
+    font-weight:bold;
+    border:hidden;
+    padding:initial;
+    background-color:#f0f0f0;
+    color: #a4a400;
+}
+
+#b {
+    color:#FFFFFF;
+}
+
+#b td:first-child{
+    background: #003366;
+    text-align:center;
+}
+
+.head {
+    background-color:#003366;
+    color:#FFFFFF;
+    width:auto;
+    text-align:center;
+    font-weight: bold;
+    border: 2px;
+    border-style:solid;
+    padding:5px, 5px, 5px, 5px;
+    border-color:#FFFFFF;
+ 
+}
+
+th {
+    background-color: #003366;
+    text-align:center;
+    border: 2px solid;
+    border-color: #FFFFFF;
+    padding:5px;
+    color: #FFFFFF;
+   
+}
+
+
+td {
+   text-align:left;
+    border: 2px solid;
+    border-color: white;
+    padding:5px;
+}
+
+/*STYLESHEET FOR recipe.html END*/
+
 /*STYLESHEET FOR dessert.html BEGINNING*/
-body.dessert {
+.dessert {
     text-align:center;
     background-image:url("dessertb1.jpg");
     background-repeat:repeat;
@@ -132,11 +266,11 @@ body.dessert {
 .box1{
     border: none;
     background-color: #ebfffa;
-    border-width: 50px;
+    border-width: 30px;
     padding-top:10px;
     padding-bottom:initial;
     position:relative;
-    left: -100px;
+    
     
 }
 
@@ -145,6 +279,8 @@ body.dessert {
     font-style:italic;
     letter-spacing: 5px;
     text-decoration:underline;
+    text-align:center;
+    font-size: 50px;
 }
 
 .dessertimg {
@@ -153,7 +289,8 @@ body.dessert {
     height:40%;
     float:right;
     margin:10px;
-    margin-right:20px;
+    margin-right:40px;
+    margin-top:80px;
 }
 
 .d1 {
@@ -166,5 +303,72 @@ body.dessert {
 
 .d3 > li {
     text-align:left;
+    
+}
+
+.d4 > li {
+    text-align:left;
+}
+
+.line{
+    height:1px;
+    border-bottom:1px dashed #003366;
+    margin-left:12px;
+    margin-right:12px;
+
+}
+
+.box1 > h3 {
+    font-style:italic;
+    text-align:center;
+}
+
+.pie {
+    border-radius: 75%;
+    width: 30%;
+    height: 40%;
+    float:left;
+    margin-left: 40px;
+
+}
+
+.box1 > h4 {
+    font-size: 24px;
+    line-height: 3px;
+}
+
+.left {
+    text-align:center;
+    line-height: 2em;
+    margin-left:10px;
+}
+
+.bold1 {
+    text-align:center;
+    text-decoration:underline;
+    font-size: 24px;
+    font-weight:bold;
+  
+}
+
+.pie1 {
+    margin-left: 100px;
+    text-align:left;
+
+}
+
+.pie2 {
+    text-align:left;
+
+
+}
+
+.piepie {
+    overflow:hidden;
+}
+
+.mama {
+    font-size: 24px;
+    font-weight:bold;
 }
 /*STYLESHEET FOR dessert.html END*/
